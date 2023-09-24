@@ -4,25 +4,21 @@ const typeDefs = `#graphql
 
   # This "User" type defines the queryable fields for every User in our data source.
   type User {
-    id: String!
+    id: ID!
     name: String!
     visibility: Boolean
   }
 
   type Course {
-    id: String!
+    id: ID!
     label: String!
-    author: User!
-    reviews: [Review!]
   }
 
   # This "Review" type defines the queryable fields for every Review in our data source.
   type Review {
-    id: String!
+    id: ID!
     rating: Int!
     content: String
-    reviewer: User!
-    course: Course!
   }
 
 
