@@ -28,4 +28,4 @@ const {url} = await startStandaloneServer(server, {
   }
 });
 
-console.log(`... 🚀 \nServer started serving at PORT ${url+':'+PORT}\n...\n...`);
+console.log(`... 🚀 \nServer started serving at PORT ${url}\n...\n...`);
