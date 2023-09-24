@@ -28,7 +28,7 @@ const typeDefs = `#graphql
   type Query {
     reviews: [Review]
     courses: [Course]
-    users: [Author]
+    users: [User]
   }
 `;
 

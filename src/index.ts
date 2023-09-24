@@ -1,7 +1,7 @@
 import { ApolloServer } from '@apollo/server';
 import { startStandaloneServer } from '@apollo/server/standalone';
-import typeDefs from './schema';
-import {reviews, courses, users} from './data';
+import typeDefs from '../schema/index.js';
+import {reviews, courses, users} from '../data/index.js';
 
 const PORT = 4000;
 
